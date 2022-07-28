@@ -1,1 +1,15 @@
+	Define the ship on Arduino software. go to: Tools > board > board manager > copy the ship link from the datasheet.
+  Define bins' names and functions (input, output,....etc).
+  Install the needed packages on Arduino software.
+  connect the ship with the laptop, then in the software go to Tools > Board ESP32 Dev Module > ESP32 Dev Module
+  check the port number to insure getting a correct connection.
+  Write the appropriate code to the project.
+  Defining variables for each extra material that will be linked to the esp32c ship is essential.
+	For example, the following code will link a little lamp we want to attach to the ship.
 
+              int L =3;              \\  3 is the bin number that the lamp is clasped too
+              void setup(){
+              pinMode( L ,OUTPUT);
+                          }           \\  OUTPUT is the declaration of the bin to be as an input or output. 
+  Press upload and the button in the ship until a leaving message appears 
+	Press restart button to run the code 
