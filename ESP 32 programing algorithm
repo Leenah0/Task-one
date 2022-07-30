@@ -1,4 +1,4 @@
-	Define the ship on Arduino software. go to: Tools > board > board manager > copy the ship link from the datasheet.
+  Define the ship on Arduino software. go to: Tools > board > board manager > copy the ship link from the datasheet.
   Define bins' names and functions (input, output,....etc).
   Install the needed packages on Arduino software.
   connect the ship with the laptop, then in the software go to Tools > Board ESP32 Dev Module > ESP32 Dev Module
@@ -12,4 +12,4 @@
               pinMode( L ,OUTPUT);
                           }           \\  OUTPUT is the declaration of the bin to be as an input or output. 
   Press upload and the button in the ship until a leaving message appears 
-	Press restart button to run the code 
+  Press restart button to run the code 
